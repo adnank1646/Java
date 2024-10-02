@@ -5,6 +5,8 @@ package Collections;
 
 import java.util.*;
 
+import javax.print.DocFlavor.STRING;
+
 public class seven {
     public static void main(String[] args) {
         //List<Integer> list = new ArrayList<>();
@@ -19,9 +21,17 @@ public class seven {
         map.put("in", "India");
         map.put("en", "India");
 
-        ArrayList<String> keys = new ArrayList<>(map.keySet());
+        Set<Map.Entry<String, String>> enteries = map.entrySet();
 
-        System.out.println(keys);
+        
+        for(Map.Entry<String,String> entry: enteries){
+            System.out.println(entry.getKey()+", "+entry.getValue());
+        }
+
+        // ArrayList<String> keys = new ArrayList<>(map.keySet());
+        // Collection<String> values = map.values();
+
+        // System.out.println(keys);
 
 
         //for removing the elements we can remove only using key value
