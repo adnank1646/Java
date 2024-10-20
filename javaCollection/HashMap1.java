@@ -70,7 +70,7 @@ public class HashMap1 {
 
         //Iterator()
         Set s = m.entrySet();
-        Iterator<e> itr = s.iterator();
+        Iterator itr = s.iterator();
 
         while (itr.hasNext()) {
         Map.Entry entry= (Entry)itr.next();  //101  x entry
