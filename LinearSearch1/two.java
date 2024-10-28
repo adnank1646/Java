@@ -1,5 +1,7 @@
 package LinearSearch1;
 
+
+//search in the STRING
 public class two {
     public static void main(String[] args) {
         String s = "Adnan";
