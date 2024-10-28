@@ -1,5 +1,6 @@
 package LinearSearch1;
 
+//simple function for LINEAR SEARCH
 public class one {
     public static void main(String[] args) {
         int[] nums = {23,56,8,51,2,79};
